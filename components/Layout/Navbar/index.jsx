@@ -3,7 +3,7 @@ import React from 'react'
 function Navbar() {
     const items = ['Get Cozy', 'What we do', 'Our work', 'The blog', 'Say hi']
   return (
-    <div className='bg-nav fixed w-full'>
+    <div className='bg-nav fixed w-full z-50'>
         <div className="flex justify-between items-center ml-10 mr-6">
             <div className="py-5 px-4">
                 <img src="https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5f86150178cfb414cd74bce4_Cozy_logo_canvas.svg" alt="" className='w-25' />
