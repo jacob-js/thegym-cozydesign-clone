@@ -48,7 +48,7 @@ body{
 
 @layer components {
   .content-wrapper{
-    @apply xl:max-w-8xl lg:max-w-300 m-auto px-6 overflow-hidden
+    @apply xl:max-w-8xl lg:max-w-300 m-auto overflow-hidden
   }
   .socials__container{
     @apply w-6 h-6 flex items-center justify-center rounded-[3px] border-b border-gray-300

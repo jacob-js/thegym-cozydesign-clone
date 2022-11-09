@@ -4,7 +4,7 @@ import Button from '../../../ui/Button'
 function About() {
   return (
     <div className='bg-about bg-ab'>
-        <div className="content-wrapper py-55 px-6 flex justify-center">
+        <div className="content-wrapper py-55 px-6 flex flex-col lg:flex-row justify-center">
             <div className="pl-[10vw] xl:max-w-[800px] flex flex-col">
                 <div className="text-7.5 tracking-[2px] mb-4">🌴🐻🇺🇸</div>
                 <div className="font-semibold text-17.5 mt-10">Get Cozy</div>
@@ -19,7 +19,7 @@ function About() {
                 </div>
                 <Button>WHY WE DO WHAT WE DO</Button>
             </div>
-            <div className="w-max flex">
+            <div className="w-5/6 lg:w-max grid grid-cols-2 lg:flex gap-4 lg:gap-0 pl-[10vw] lg:pl-0 mt-25 lg:mt-0">
                 <div className="w-max flex flex-col items-center gap-10 px-5">
                     <img src="https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/61cba966b768d255e6071b35_Clutch%20Global%202021.webp" loading="lazy" className='max-w-[150px] object-contain' srcSet="https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/61cba966b768d255e6071b35_Clutch%20Global%202021-p-500.webp 500w, https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/61cba966b768d255e6071b35_Clutch%20Global%202021.webp 930w" alt=""  />
                     <img className='w-40 object-contain' src="//res.cloudinary.com/expertise-com/image/upload/f_auto,fl_lossy,q_auto/w_auto/remote_media/awards/ca_san-diego_user-experience_2020_transparent.svg" alt="Best UX Designers in San Diego" />
