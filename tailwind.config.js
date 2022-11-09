@@ -24,7 +24,8 @@ module.exports = {
         'test-1': '0 10px 24px 0 rgb(45 72 80 / 60%)',
         'test-2': '0 10px 24px 0 rgb(45 72 80 / 70%)',
         'test-3': '0 10px 24px 0 rgb(196 125 87 / 90%)',
-        'test-4': '0 10px 24px 0 rgb(196 125 87 / 80%)'
+        'test-4': '0 10px 24px 0 rgb(196 125 87 / 80%)',
+        'border-icon': '0 8px 24px 0 rgb(82 91 115 / 12%)'
       },
       colors: {
         choco: '#c47d57',

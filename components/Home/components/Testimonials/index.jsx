@@ -5,12 +5,17 @@ function Testimonials() {
   return (
     <div className='bg-light py-35 px-6 testimonials'>
       <div className="content-wrapper flex flex-col items-center">
-        <div className="mb-[67px]">
+        <div className="mb-[67px] flex flex-col items-center">
           <div className="text-6xl font-semibold mt-15 mb-7.5">❤️ from our clients</div>
           <div className="mt-5 mb-6 w-10 h-1 bg-choco.50"></div>
         </div>
-        <div className="w-5/6">
-          <div className="flex">
+        <div className="w-5/6 pb-3.75">
+          <div className="flex relative justify-center">
+            <div className="absolute w-[88px] h-[88px] mx-auto z-10 bg-light rounded-full border-light border flex items-center justify-center -bottom-[44px] shadow-border-icon">
+              <img src="https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5b60dd35a56ec72df4703e47_chat-icon-black.svg" alt="" />
+              <div className="border-2 border-light absolute -inset-2 rounded-full opacity-70"></div>
+              <div className="border-2 border-light absolute -inset-4 rounded-full opacity-30"></div>
+            </div>
             <div className="w-2/4 flex justify-end items-end">
               <TestimonialItem 
                 name="SUSIE POLLASKY"
