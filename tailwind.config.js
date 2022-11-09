@@ -37,7 +37,8 @@ module.exports = {
         'dark-blue': '#223240',
         'dark-blue.80': '#2d4850',
         'light': '#e4ded5',
-        'pink': '#d90f54'
+        'pink': '#d90f54',
+        'pink.50': '#e4405f'
       },
       fontFamily: {
         fauc: 'fauc',
