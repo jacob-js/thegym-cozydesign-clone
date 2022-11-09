@@ -11,7 +11,9 @@ module.exports = {
         'nav': 'linear-gradient(270deg,#302f39,#223240 95%)',
         'hero': 'linear-gradient(90deg,#302f39,#223240)',
         'trans': "url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/61bbc96064c698bc567db060_noise10.webp')",
-        'about': "url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/61bbc96064c698bc567db060_noise10.webp'),linear-gradient(180deg,rgba(213,173,143,.3),rgba(213,173,143,.3)),url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/607077c4d94a9d833a9cd183_stacked-waves-haikei.svg')"
+        'about': "url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/61bbc96064c698bc567db060_noise10.webp'),linear-gradient(180deg,rgba(213,173,143,.3),rgba(213,173,143,.3)),url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/607077c4d94a9d833a9cd183_stacked-waves-haikei.svg')",
+        'sdd': 'linear-gradient(180deg,rgba(0,0,0,.8),rgba(0,0,0,.8))',
+        'noise': 'https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/618e08dc978d65573e65c4e8_noise%201.jpg'
       },
       backgroundSize: {
         '12.5': '3.125rem',
@@ -34,7 +36,8 @@ module.exports = {
         'choco.dark': '#b55730',
         'dark-blue': '#223240',
         'dark-blue.80': '#2d4850',
-        'light': '#e4ded5'
+        'light': '#e4ded5',
+        'pink': '#d90f54'
       },
       fontFamily: {
         fauc: 'fauc',

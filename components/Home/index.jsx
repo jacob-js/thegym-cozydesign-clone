@@ -2,6 +2,7 @@ import React from 'react'
 import About from './components/About'
 import Clients from './components/Clients'
 import Hero from './components/Hero'
+import Sdd from './components/Sdd'
 import Testimonials from './components/Testimonials'
 
 function Home() {
@@ -11,6 +12,7 @@ function Home() {
         <About />
         <Testimonials />
         <Clients />
+        <Sdd />
     </div>
   )
 }
