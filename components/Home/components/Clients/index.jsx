@@ -4,8 +4,8 @@ function Clients() {
   return (
     <div className='bg-dark-blue px-6'>
         <div className="content-wrapper flex flex-col items-center justify-center">
-            <div className="text-3xl italic text-choco.50 opacity-80 tracking-[.4px] mt-16">More than 150 happy clients</div>
-            <div className="w-full flex justify-center items-center py-8 px-2 mb-4">
+            <div className="text-3xl italic text-choco.50 opacity-80 tracking-[.4px] mt-16 text-center">More than 150 happy clients</div>
+            <div className="w-full flex flex-col sm:flex-row justify-center items-center py-8 px-2 mb-4">
                 <div className="mx-4 my-[17px] py-2 px-3">
                     <img src="https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5f8776ae2c425f4ec285598c_NPCA%20logo%20-%20light.svg" alt="" className='h-8' />
                 </div>
